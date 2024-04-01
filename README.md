@@ -7,12 +7,17 @@ Financial analysis is crucial for understanding the performance and health of co
 
 ## Installation
 Installing the following Python Libraries serves as a prerequisite
-**requests** for sending HTTP requests to fetch web pages
-**lxml** for parsing XLM content
-**pandas** for data amnipulation & analysis
-**beautifulsoup4** for parsing HTML content
-**seaborn** for statistical data visualization
-**matplotlib** for creating static, animated, and interactive visualizations in Python
+- **requests** for sending HTTP requests to fetch web pages
+
+- **lxml** for parsing XLM content
+
+- **pandas** for data manipulation & analysis
+
+- **beautifulsoup4** for parsing HTML content
+
+- **seaborn** for statistical data visualization
+
+- **matplotlib** for creating static, animated, and interactive visualizations in Python
 
 ## Summary of Steps
 This script performs the following steps:
@@ -23,7 +28,7 @@ This script performs the following steps:
 
 - Extracts free cash flow data from the financial statements.
 
-- Creates a DataFrame using Pandas to store the extracted data.
+- Creates a data frame using Pandas to store the extracted data.
 
 - Visualizes the free cash flow data using Seaborn and Matplotlib.
 
@@ -42,7 +47,7 @@ This script performs the following steps:
 
 ## Relative Valuation
 The project extracts and displays the Price-to-Sales (P/S) and Price-to-Earnings (P/E) ratios for each company. These metrics are important for evaluating the market valuation of companies and comparing them with industry peers.
-For more information on Free Cash Flow, Price to Earnings and Price to Sales see the links below
+For more information on Free Cash Flow, Price to Earnings, and Price to Sales see the links below
 https://en.wikipedia.org/wiki/Free_cash_flow
 https://en.wikipedia.org/wiki/Price%E2%80%93earnings_ratio
 https://en.wikipedia.org/wiki/Price%E2%80%93sales_ratio
