@@ -3,7 +3,7 @@
 This project is designed to perform financial analysis on three major energy companies: Exxon Mobil, Chevron, and Shell. It utilizes web scraping techniques to extract financial data from the companies' websites, analyzes their free cash flows, and visualizes the data using Python libraries such as BeautifulSoup, Pandas, Seaborn, and Matplotlib.
 
 ## Introduction
-Financial analysis is crucial for understanding the performance and health of companies. This project aims to provide insights into the financial standing of Exxon Mobil, Chevron, and Shell by analyzing their free cash flow, a key metric indicating a company's ability to generate cash after accounting for expenses. Additionally, it extracts relative valuation metrics such as Price-to-Sales (P/S) and Price-to-Earnings (P/E) ratios to evaluate the companies' market valuation.
+Fundamental analysis (analyzing a company's financial statements) is crucial for understanding the performance and health of companies. This project aims to provide insights into the economic standing of Exxon Mobil, Chevron, and Shell by analyzing their free cash flow, a key metric indicating a company's ability to generate cash after accounting for expenses. Additionally, it extracts relative valuation metrics such as Price-to-Sales (P/S) and Price-to-Earnings (P/E) ratios to evaluate the companies' market valuation.
 
 ## Installation
 Installing the following Python Libraries serves as a prerequisite
@@ -30,7 +30,7 @@ This script performs the following steps:
 
 - Creates a data frame using Pandas to store the extracted data.
 
-- Visualizes the free cash flow data using Seaborn and Matplotlib.
+- Visualizes the free cash flow data using Matplotlib.
 
 - Extracts relative valuation metrics (P/S and P/E ratios) from the companies' websites.
 
